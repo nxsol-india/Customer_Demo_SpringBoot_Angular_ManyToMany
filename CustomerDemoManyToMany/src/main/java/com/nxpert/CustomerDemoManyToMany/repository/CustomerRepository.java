@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo.repository;
+package com.nxpert.CustomerDemoManyToMany.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.nxpert.CustomerDemo.model.Customer;
+import com.nxpert.CustomerDemoManyToMany.model.Customer;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {

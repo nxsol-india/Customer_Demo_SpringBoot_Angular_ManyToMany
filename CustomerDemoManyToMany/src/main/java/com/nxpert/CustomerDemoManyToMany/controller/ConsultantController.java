@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo.controller;
+package com.nxpert.CustomerDemoManyToMany.controller;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nxpert.CustomerDemo.model.Consultant;
-import com.nxpert.CustomerDemo.service.ConsultantService;
+import com.nxpert.CustomerDemoManyToMany.model.Consultant;
+import com.nxpert.CustomerDemoManyToMany.service.ConsultantService;
 
 @RestController
 @RequestMapping("/consultant")

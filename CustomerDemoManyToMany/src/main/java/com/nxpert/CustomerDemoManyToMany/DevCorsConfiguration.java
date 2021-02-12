@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo;
+package com.nxpert.CustomerDemoManyToMany;
 
 
 import javax.servlet.Filter;

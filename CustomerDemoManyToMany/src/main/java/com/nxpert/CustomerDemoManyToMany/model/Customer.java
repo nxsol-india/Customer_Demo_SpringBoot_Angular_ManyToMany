@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo.model;
+package com.nxpert.CustomerDemoManyToMany.model;
 
 import java.util.HashSet;
 import java.util.Set;

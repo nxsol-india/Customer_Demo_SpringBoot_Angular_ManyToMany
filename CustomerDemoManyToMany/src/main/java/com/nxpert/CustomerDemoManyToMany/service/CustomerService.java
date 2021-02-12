@@ -1,11 +1,11 @@
-package com.nxpert.CustomerDemo.service;
+package com.nxpert.CustomerDemoManyToMany.service;
 
 import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.nxpert.CustomerDemo.model.Customer;
+import com.nxpert.CustomerDemoManyToMany.model.Customer;
 
 public interface CustomerService  {
 

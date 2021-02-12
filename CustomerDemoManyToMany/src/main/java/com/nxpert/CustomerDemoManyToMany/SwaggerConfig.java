@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo;
+package com.nxpert.CustomerDemoManyToMany;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo.service.impl;
+package com.nxpert.CustomerDemoManyToMany.service.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.nxpert.CustomerDemo.model.Consultant;
-import com.nxpert.CustomerDemo.repository.ConsultantRepository;
-import com.nxpert.CustomerDemo.service.ConsultantService;
+import com.nxpert.CustomerDemoManyToMany.model.Consultant;
+import com.nxpert.CustomerDemoManyToMany.repository.ConsultantRepository;
+import com.nxpert.CustomerDemoManyToMany.service.ConsultantService;
 
 @Service
 public class ConsultantServiceImpl implements ConsultantService {

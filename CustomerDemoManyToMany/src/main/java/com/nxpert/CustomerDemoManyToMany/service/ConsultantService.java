@@ -1,4 +1,4 @@
-package com.nxpert.CustomerDemo.service;
+package com.nxpert.CustomerDemoManyToMany.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.nxpert.CustomerDemo.model.Consultant;
+import com.nxpert.CustomerDemoManyToMany.model.Consultant;
 
 public interface ConsultantService {
 
